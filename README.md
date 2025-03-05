@@ -6,7 +6,7 @@ Ce projet Android met en œuvre différentes boîtes de dialogue (`Dialog`) pour
 
 Voici un aperçu de l'interface :
 
-![Aperçu de l'application](screenshot.png)
+![Aperçu de l'application](app/screenshot.png)
 ## Fonctionnalités
 - **AlertDialog** : Boîte de dialogue standard avec message et boutons d'action.
 - **ProgressDialog** : Indicateur de chargement.
