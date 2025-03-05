@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Titre Principal -->
+
+    <!-- RecyclerView pour une liste modernisée -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:text="Boîtes de Dialogues"
+    android:textColor="@color/purple_500"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-medium"
+    android:shadowColor="#888888"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="4" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDialogs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="8dp"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        android:scrollbars="vertical" />
+</RelativeLayout>
